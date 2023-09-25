@@ -51,9 +51,22 @@
         <div class="row">
             <div class="col"></div>
             <div class="col">
+                <form class="row g-3 mb-2">
+                    <div class="col-md-3">
+                        <label for="inputTafelvan" class="form-label">Tafel van</label>
+                        <input type="number" class="form-control" id="inputTafelvan">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputTafeltot" class="form-label">Tafel tot</label>
+                        <input type="number" class="form-control" id="inputTafeltot">
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <button type="button" class="btn btn-success" onclick="showTafel()">GO</button>
+                    </div>
+                </form>
                 <div class="card text-center">
                     <div class="card-header">
-                        Tafel van 7
+                        Tafel van ...
                     </div>
                     <div id="tafel" class="card-body">
                     </div>
@@ -69,7 +82,7 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 
-    <script src="app1script.js"></script>    
+    <script src="app1script.js"></script>
 </body>
 
 </html>
