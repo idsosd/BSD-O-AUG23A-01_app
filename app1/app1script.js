@@ -20,4 +20,6 @@ function showTafel()
     }
     //de inhoud van tekst in mijn html pushen
     document.getElementById("tafel").innerHTML = tekst
+    //de inhoud van tekst in mijn html pushen
+    document.getElementById("tafelheader").innerHTML = "Tafel van " + tafelvan
 }
